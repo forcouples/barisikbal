@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3x3 Puzzle</title>
+    <link rel="stylesheet" href="stil.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Pacifico&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="carousel">
+            
+
+               
+
+                <div class="puzzle-wrapper active">
+                    <h2>İkbal & Barış</h2>
+                    <div id="table3x3" style="display: table;">
+                        <div id="row1-3" style="display: table-row;">
+                            <div id="cell3_11" class="tile3_1" onClick="clickTile3x3(1,1);"></div>
+                            <div id="cell3_12" class="tile3_2" onClick="clickTile3x3(1,2);"></div>
+                            <div id="cell3_13" class="tile3_3" onClick="clickTile3x3(1,3);"></div>
+                        </div>
+                        <div id="row2-3" style="display: table-row;">
+                            <div id="cell3_21" class="tile3_4" onClick="clickTile3x3(2,1);"></div>
+                            <div id="cell3_22" class="tile3_5" onClick="clickTile3x3(2,2);"></div>
+                            <div id="cell3_23" class="tile3_6" onClick="clickTile3x3(2,3);"></div>
+                        </div>
+                        <div id="row3-3" style="display: table-row;">
+                            <div id="cell3_31" class="tile3_7" onClick="clickTile3x3(3,1);"></div>
+                            <div id="cell3_32" class="tile3_8" onClick="clickTile3x3(3,2);"></div>
+                            <div id="cell3_33" class="tile3_9" onClick="clickTile3x3(3,3);"></div>
+                        </div>
+                    </div>
+                    <button class="new-game-btn" onClick="shuffle3x3();">Karıştır</button>
+                </div>
+
+               
+
+        
+            </div>
+        </div>
+    </div>
+    <script src="javas.js"></script>
+</body>
+</html>
